@@ -1,0 +1,89 @@
+body {
+	background-image: url("../images/Notebook-background4a.jpg");
+	background-repeat: no-repeat;
+}
+.listtitle {
+	position: absolute;
+	top: 5px;
+	left: 500px;
+	float: left;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 2.25rem;
+}
+input {
+	background-color: transparent;
+	border-color: gray;
+	border: 0px;
+	border-bottom: solid 3px;
+	height: 30px;
+	width: 200px;
+} 
+.titlebutton {
+	position: absolute;
+	top: 120px;
+	left: 715px;
+	text-align: center;
+}
+.title {
+	position: absolute;
+	top: 190px;
+	left: 520px;
+	float: left;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 1.25rem;
+}
+.additems {
+	position: absolute;
+	top: 310px;
+	left: 510px;
+	float: left;
+	font-family: 'Signika', sans-serif;
+	font-size: 1.25rem;
+}
+.add {
+	position: absolute;
+	top: 320px;
+	left: 720px;
+}
+.addbutton {
+}
+.items {
+	font-family: 'Signika', sans-serif;
+	position: absolute;
+	top: 400px;
+	left: 530px;
+	float: left;
+}
+h3 {
+	font-family: 'Kaushan Script', cursive;
+}
+.purchased {
+	position: absolute;
+	top: 400px;
+	left: 700px;
+	float: left;
+}
+.checkmark {
+	background-image: url("../images/checkmark20.png");
+	vertical-align: center;
+	width: 25px;
+	height: 25px;
+	background-repeat: no-repeat;
+}
+.remove {
+	position: absolute;
+	top: 400px;
+	left: 800px;
+	float: left;
+}
+.minus {
+	vertical-align: center;
+	width: 25px;
+	height: 25px;
+	background-repeat: no-repeat;
+}
+@media only screen and (max-width: 500px) {
+    .title {
+        font-size: 3em;
+    }
+}
