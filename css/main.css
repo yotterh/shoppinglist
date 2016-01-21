@@ -1,14 +1,7 @@
 body {
 	background-image: url("../images/Notebook-background4a.jpg");
 	background-repeat: no-repeat;
-}
-.listtitle {
-	position: absolute;
-	top: 5px;
-	left: 500px;
-	float: left;
-	font-family: 'Kaushan Script', cursive;
-	font-size: 2.25rem;
+	text-align: center;
 }
 input {
 	background-color: transparent;
@@ -18,50 +11,61 @@ input {
 	height: 30px;
 	width: 200px;
 } 
-.titlebutton {
-	position: absolute;
-	top: 120px;
-	left: 715px;
-	text-align: center;
-}
 .title {
-	position: absolute;
-	top: 190px;
-	left: 520px;
-	float: left;
+	margin-top: 185px;
 	font-family: 'Kaushan Script', cursive;
 	font-size: 1.25rem;
 }
 .additems {
-	position: absolute;
-	top: 310px;
-	left: 510px;
-	float: left;
 	font-family: 'Signika', sans-serif;
 	font-size: 1.25rem;
 }
-.add {
-	position: absolute;
-	top: 320px;
-	left: 720px;
-}
 .addbutton {
-}
-.items {
-	font-family: 'Signika', sans-serif;
 	position: absolute;
-	top: 400px;
-	left: 530px;
-	float: left;
+	top: 265px;
+	left: 800px;
+}
+.container {
+	width: 800px;
+	position: absolute;
+	left: 300px;
+	top: 350px;
+}
+.columns {
+	width: 500px;
+	margin: 0 auto;
 }
 h3 {
 	font-family: 'Kaushan Script', cursive;
 }
+.items {
+	height: auto;
+	text-align: center;
+}
+.list {
+	font-family: 'Signika', sans-serif;
+	font-size: 1.25rem;
+}
 .purchased {
-	position: absolute;
-	top: 400px;
-	left: 700px;
+	width: 150px;
 	float: left;
+	height: auto;
+	text-align: center;
+}
+.remove {
+	width: 100px;
+	float: left;
+	height: auto;
+}
+.remove > ul {
+	list-style: none;
+}
+.clear {
+	clear: both;
+}
+span {
+	margin-right: 30px;
+	margin-left: 10px;
 }
 .checkmark {
 	background-image: url("../images/checkmark20.png");
@@ -69,21 +73,14 @@ h3 {
 	width: 25px;
 	height: 25px;
 	background-repeat: no-repeat;
-}
-.remove {
-	position: absolute;
-	top: 400px;
-	left: 800px;
-	float: left;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 .minus {
 	vertical-align: center;
 	width: 25px;
 	height: 25px;
 	background-repeat: no-repeat;
-}
-@media only screen and (max-width: 500px) {
-    .title {
-        font-size: 3em;
-    }
+	margin-left: 40px;
+	margin-right: 40px;
 }
